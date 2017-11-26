@@ -1,0 +1,1 @@
+{"version":3,"file":"not-found.component.ngfactory.js","sourceRoot":"","sources":["../../../src/app/not-found/not-found.component.ngfactory.ts","../../../src/app/not-found/not-found.component.html"],"names":[],"mappings":";;;;;;;;;;;;;;4DCAA,0EAAG,KAAA,sCAEH,MAAI,+BACJ","sourcesContent":["import * as i0 from '@angular/core';\ni0.ComponentFactory;\n","<p>\n  404\n</p>\n"]}

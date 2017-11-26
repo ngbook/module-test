@@ -1,0 +1,1 @@
+{"version":3,"file":"user.service.js","sourceRoot":"","sources":["../../../src/app/services/user.service.ts"],"names":[],"mappings":";;AAAA,sCAA2C;;IAMvC;kBAFK,CAAC;KAEW;;gBAJpB,iBAAU;;;;sBAFX;;AAGa,kCAAW","sourcesContent":["import { Injectable } from '@angular/core';\n\n@Injectable()\nexport class UserService {\n    id = 0;\n\n    constructor() { }\n\n}\n"]}
