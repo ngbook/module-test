@@ -17,19 +17,16 @@ var AppModule = (function () {
         { type: core_1.NgModule, args: [{
                     declarations: [
                         app_component_1.AppComponent,
-                        // IndexComponent,
                         not_found_component_1.NotFoundComponent,
                     ],
                     imports: [
                         platform_browser_1.BrowserModule,
-                        // IndexModule,
                         test_module_1.TestModule,
                         app_routing_module_1.AppRoutingModule,
                     ],
-                    entryComponents: [],
                     providers: [
                         preload_1.PreloadSelectedModulesList,
-                        { provide: 'a', useValue: 'app' }
+                        { provide: 'a', useValue: 'value-in-app-mod' }
                     ],
                     bootstrap: [app_component_1.AppComponent]
                 },] },

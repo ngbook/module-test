@@ -13,21 +13,16 @@ import { NotFoundComponent } from './not-found/not-found.component';
 @NgModule({
     declarations: [
         AppComponent,
-        // IndexComponent,
         NotFoundComponent,
     ],
     imports: [
         BrowserModule,
-        // IndexModule,
         TestModule,
         AppRoutingModule,
     ],
-    entryComponents: [
-        // IndexComponent
-    ],
     providers: [
         PreloadSelectedModulesList,
-        {provide: 'a', useValue: 'app'}
+        {provide: 'a', useValue: 'value-in-app-mod'}
     ],
     bootstrap: [AppComponent]
 })

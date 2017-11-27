@@ -9,6 +9,9 @@ import {
     selector: 'app-test',
     templateUrl: './test.component.html',
     styleUrls: ['./test.component.scss'],
+    providers: [
+        {provide: 'a', useValue: 'value-in-component'}
+    ]
 })
 export class TestComponent implements OnInit {
 
@@ -21,7 +24,7 @@ export class TestComponent implements OnInit {
         // const factory = this.resolver.resolveComponentFactory(IndexComponent);
         // console.log(factory);
         // this.viewRef.createComponent(factory);
-        // console.log(this.data);
+        console.log(this.data);
     }
 
 }

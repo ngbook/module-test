@@ -14,7 +14,7 @@ var RenderType_TestComponent = i1.ɵcrt({ encapsulation: 0, styles: styles_TestC
 exports.RenderType_TestComponent = RenderType_TestComponent;
 function View_TestComponent_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 0, null, null, 1, "p", [], null, null, null, null, null)), (_l()(), i1.ɵted(-1, null, ["\n  test works!\n"])), (_l()(), i1.ɵted(-1, null, ["\n"]))], null, null); }
 exports.View_TestComponent_0 = View_TestComponent_0;
-function View_TestComponent_Host_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 16777216, null, null, 1, "app-test", [], null, null, null, View_TestComponent_0, RenderType_TestComponent)), i1.ɵdid(1, 114688, null, 0, i2.TestComponent, [i1.ComponentFactoryResolver, i1.Injector, "a", i1.ViewContainerRef], null, null)], function (_ck, _v) { _ck(_v, 1, 0); }, null); }
+function View_TestComponent_Host_0(_l) { return i1.ɵvid(0, [(_l()(), i1.ɵeld(0, 16777216, null, null, 2, "app-test", [], null, null, null, View_TestComponent_0, RenderType_TestComponent)), i1.ɵprd(256, null, "a", "value-in-component", []), i1.ɵdid(2, 114688, null, 0, i2.TestComponent, [i1.ComponentFactoryResolver, i1.Injector, "a", i1.ViewContainerRef], null, null)], function (_ck, _v) { _ck(_v, 2, 0); }, null); }
 exports.View_TestComponent_Host_0 = View_TestComponent_Host_0;
 var TestComponentNgFactory = i1.ɵccf("app-test", i2.TestComponent, View_TestComponent_Host_0, {}, {}, []);
 exports.TestComponentNgFactory = TestComponentNgFactory;
