@@ -13,6 +13,8 @@ export class IndexComponent implements OnInit {
     ngOnInit() {
         console.log('get user id at index:', this.user.id);
         console.log(this.data);
+        console.log('setting inside index');
+        this.user.id = 55;
     }
 
 }
