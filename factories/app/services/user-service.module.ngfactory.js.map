@@ -1,0 +1,1 @@
+{"version":3,"file":"user-service.module.ngfactory.js","sourceRoot":"","sources":["../../../src/app/services/user-service.module.ngfactory.ts"],"names":[],"mappings":"","sourcesContent":["import * as i0 from '@angular/core';\nimport * as i1 from './user-service.module';\nexport const UserModuleNgFactory:i0.NgModuleFactory<i1.UserModule> = (null as any);\n"]}

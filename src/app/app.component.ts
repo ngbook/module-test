@@ -1,5 +1,5 @@
 import { Component, Inject } from '@angular/core';
-import { UserService } from './services/user.service';
+import { UserModel } from './services/user';
 
 @Component({
     selector: 'app-root',
@@ -7,12 +7,7 @@ import { UserService } from './services/user.service';
     styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-    constructor(private user: UserService, @Inject('a') data) {
-        this.user.id = 100;
-        console.log('set user id at app');
-        setTimeout(() => {
-            console.log('got user id', this.user.id);
-            // Result is changed by index module. So they are the same instance.
-        }, 1000);
+    constructor(private user: UserModel) {
+        console.log('[App] user model is:', this.user.name);
     }
 }

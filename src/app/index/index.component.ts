@@ -1,5 +1,5 @@
 import { Component, OnInit, Inject } from '@angular/core';
-import { UserService } from '../services/user.service';
+import { UserModel } from '../services/user';
 
 @Component({
     selector: 'app-index',
@@ -8,13 +8,12 @@ import { UserService } from '../services/user.service';
 })
 export class IndexComponent implements OnInit {
 
-    constructor(private user: UserService, @Inject('a')private data) { }
+    constructor(
+        private user: UserModel
+    ) { }
 
     ngOnInit() {
-        console.log('get user id at index:', this.user.id);
-        console.log(this.data);
-        console.log('setting inside index');
-        this.user.id = 55;
+        console.log('[Index] user model is:', this.user.name);
     }
 
 }

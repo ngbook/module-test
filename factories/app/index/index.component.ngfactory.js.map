@@ -1,0 +1,1 @@
+{"version":3,"file":"index.component.ngfactory.js","sourceRoot":"","sources":["../../../src/app/index/index.component.ngfactory.ts","../../../src/app/index/index.component.html"],"names":[],"mappings":";;;;;;;;;;;;;;;yDCAA,0EAAG,KAAA,+CAEH,MAAI,+BACJ","sourcesContent":["import * as i0 from '@angular/core';\ni0.ComponentFactory;\n","<p>\n  index works!\n</p>\n"]}

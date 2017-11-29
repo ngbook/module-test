@@ -3,7 +3,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
 var common_1 = require("@angular/common");
 var test_component_1 = require("./test.component");
-var user_service_1 = require("../services/user.service");
+var user_service_module_1 = require("../services/user-service.module");
 var TestModule = (function () {
     function TestModule() {
     }
@@ -11,6 +11,7 @@ var TestModule = (function () {
         { type: core_1.NgModule, args: [{
                     imports: [
                         common_1.CommonModule,
+                        user_service_module_1.UserModule,
                     ],
                     exports: [
                         test_component_1.TestComponent,
@@ -22,7 +23,7 @@ var TestModule = (function () {
                         test_component_1.TestComponent,
                     ],
                     providers: [
-                        user_service_1.UserService,
+                        // UserService,
                         { provide: 'a', useValue: 'value-in-test-mod' }
                     ],
                 },] },

@@ -1,7 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { TestComponent } from './test.component';
-import { UserService } from '../services/user.service';
 import { RouterModule } from '@angular/router';
 
 @NgModule({
@@ -18,8 +17,6 @@ import { RouterModule } from '@angular/router';
         TestComponent,
     ],
     providers: [
-        UserService,
-        {provide: 'a', useValue: 'value-in-test-mod'}
     ],
 })
 export class TestModule { }
