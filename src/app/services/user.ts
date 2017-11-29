@@ -1,7 +1,6 @@
 import {
     NgModule,
     ModuleWithProviders,
-    InjectionToken,
 } from '@angular/core';
 
 export class UserModel {
@@ -11,17 +10,11 @@ export class UserModel {
 export class UserModelA extends UserModel {
     name = 'user-type-A';
 }
-
 export class UserModelB extends UserModel {
     name = 'user-type-B';
 }
 
-@NgModule({
-    providers: [
-        // UserModelA,
-        // UserModelB,
-    ]
-})
+@NgModule({})
 export class UserModule {
     static forRoot(): ModuleWithProviders {
         return {
